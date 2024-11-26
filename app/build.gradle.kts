@@ -50,7 +50,7 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7") // Обновите на последнюю версию, если возможно
     implementation(libs.coil.compose)
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)
